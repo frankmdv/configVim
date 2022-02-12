@@ -1,8 +1,7 @@
-" Airline config
-let g:airline#extensions#tabline#enabled = 1 "Habilita la barra superior para los buffers.
+let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail' "Cambia el formato del nombre de los archivos que se muestran en la barra de buffers.
 let g:airline_powerline_fonts = 1 "Cambia el diseño de la barra de estado
-let g:airline_theme='dracula' "Airline Theme
+" let g:airline_theme='spaceduck' "Airline Theme
 
 " Nerdtree config
 let NERDTreeStatusline='NERDTree'
@@ -16,4 +15,3 @@ let g:python_highlight_space_errors = 0
 
 " JavaScript config
 let g:javascript_plugin_jsdoc = 1
-
